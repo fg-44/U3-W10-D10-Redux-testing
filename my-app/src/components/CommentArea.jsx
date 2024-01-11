@@ -17,7 +17,7 @@ const CommentArea = ({ asin }) => {
           'https://striveschool-api.herokuapp.com/api/comments/' + asin,
           {
             headers: {
-              Authorization: 'Bearer inserisci-qui-il-tuo-token',
+              Authorization: 'Bearer tokken "',
             },
           }
         )
